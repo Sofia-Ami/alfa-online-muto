@@ -78,7 +78,7 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  background-color: #b0c4de;
+  background-color: #2f4f4f;
   color: #fff;
   width: 287px;
   height: 55px;
@@ -243,7 +243,7 @@ button {
 }
 
 .bg-color--subcolor {
-  background-color: #5f9ea0;
+  background-color: #2f4f4f;
 }
 
 .bg-color--gray {
