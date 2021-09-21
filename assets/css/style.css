@@ -336,7 +336,7 @@ button {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  background-color: #5f9ea0;
+  background-color: #008b8b;
   color: #000;
   font-size: 24px;
   line-height: 1.54167;
@@ -474,7 +474,7 @@ button {
   display: block;
   width: 183px;
   height: 2px;
-  background-color: #b0c4de;
+  background-color: #5f9ea0;
   bottom: 0;
   left: calc(50% - (183px/2));
 }
