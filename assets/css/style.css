@@ -24,7 +24,7 @@ body {
   text-decoration: none;
   border: none;
   list-style: none;
-  color: #b0c4de;
+  color: #2f4f4f;
   margin: 0;
 }
 
@@ -78,7 +78,7 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  background-color: #2f4f4f;
+  background-color: #5f9ea0;
   color: #fff;
   width: 287px;
   height: 55px;
@@ -175,7 +175,7 @@ button {
   content: '';
   width: calc(100% - 60px);
   height: 7px;
-  background-color: #fcee21;
+  background-color: #5f9ea0;
   position: absolute;
   top: -10px;
   left: 30px;
@@ -239,11 +239,11 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #2f4f4f;
+  background-color: #708090;
 }
 
 .bg-color--subcolor {
-  background-color: #2f4f4f;
+  background-color: #708090;
 }
 
 .bg-color--gray {
@@ -284,7 +284,7 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #2f4f4f;
+  background-color: #778899;
 }
 
 .section-title--keycolorlight .section-title__stage {
@@ -292,7 +292,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #2f4f4f;
+  background-color: #008b8b;
 }
 
 .section-title--story {
@@ -307,7 +307,7 @@ button {
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #006837;
+  color: #2f4f4f;
 }
 
 .section-title--border::after {
