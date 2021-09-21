@@ -21,12 +21,12 @@ const app = Vue.createApp({
           q1: 'unlock',
         },
         stage2: {
-          q1: 'Sei Fushimi',
+          q1: 'sei fushimi',
           // q2: 'えええ',
           // q3: 'おおお'
         },
         stage3: {
-          q1: 'Kou Takahashi',
+          q1: 'kou takahashi',
           // q2: 'かかか',
           // q3: 'ききき',
         }
