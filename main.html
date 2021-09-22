@@ -88,7 +88,7 @@ Youtube貼り付けここまで -->
               <div class="clear-message__title">STAGE：１  CLEAR！</div>
               <div class="clear-message__content">情報網への侵入は成功だ！<br>
                 さぁ、裏切り者共を洗い出さなくては。<br>
-                潜入している奴らは複数いる。次に進もう。</div>
+                潜入している奴らは2人いる。警備システムに見つかる前に次に進もう。</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -110,13 +110,13 @@ Youtube貼り付けここまで -->
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>警察からの構成員は誰だ？</h2>
               <p class="text-center">警察の情報網に入ることはできた。<br>
                 名簿一覧のような、すぐわかるものはなかった。<br>
-                しかし、これを解くことで構成員の情報が出てくるはずだ。<br>
+                しかし、これを解くことで奴らの情報が出てくるはずだ。<br>
                 入力の際は全て小文字で、スペースを入れてくれ。</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
             <div class="container">
-              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>構成員の名前を入力</h2>
+              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>裏切り者の名前を入力</h2>
               <!-------------------------------------------------------------
                 class名"row"内のclass名"column"が横並びになります。
                 改行する場合は以下のように追加してください。
@@ -183,8 +183,8 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　CLEAR！</div>
-              <div class="clear-message__content">警察からの構成員は1人とは限らない。<br>
-                次に進んで残りがいるか見つけだそう。</div>
+              <div class="clear-message__content">警察から潜入して来ている裏切り者は2人いる。<br>
+                次に進んで残りを見つけだそう。</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -199,10 +199,10 @@ Youtube貼り付けここまで -->
         <!-- STAGE3-1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>もう1人の構成員</h2>
-            <p class="text-center">1人目の構成員はSei Fushimiだった。<br>
-              どうやらもう1人、潜入している構成員がいるらしい。<br>
-              おそらくこれが最後だ。それが誰かを探し出し情報を持ち帰ろう。<br>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>もう1人の裏切り者</h2>
+            <p class="text-center">1人目の裏切り者は見つかった。<br>
+              もう1人、警察から潜入しているやつがいる。<br>
+              これが最後だ。それが誰かを探し出し、情報を持ち帰ろう。<br>
               入力の際は全て小文字で、スペースを入れてくれ。</p>
             <figure class="image__container">
               <img src="assets/images/謎解き3.png" alt="">
@@ -214,7 +214,7 @@ Youtube貼り付けここまで -->
         <!-- STAGE3-1解答入力セクションここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：3</span>構成員の名前を入力</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE：3</span>裏切り者の名前を入力</h2>
             <!-----------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。
               v-on:answer-input="answerInput($event, 'stage3', 1, 'final')" は送信ボタンをクリックした時の動作を決める関数です。
