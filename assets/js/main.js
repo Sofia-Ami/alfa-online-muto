@@ -18,7 +18,7 @@ const app = Vue.createApp({
       */
       correctAnswer: {
         stage1: {
-          q1: 'unlock',
+          q1: 'パソコンのキーボードを見てみると半角と全角がある。ひらがなを辿っていくと -unlock- ',
         },
         stage2: {
           q1: 'sei fushimi',
